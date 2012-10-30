@@ -33,7 +33,7 @@ To run the application, simply start the Web Server once the dependencies have b
 
     $ python station.py
 
-Then point your browser at (http://localhost:8001)
+Then point your browser at [http://localhost:8001](http://localhost:8001)
 
 
 Files
