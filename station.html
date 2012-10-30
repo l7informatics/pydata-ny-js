@@ -1,0 +1,77 @@
+<!--
+Copyright (c) 2012, Lab7 Systems, Inc.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without.
+modification, are permitted provided that the following conditions are.
+met: 
+
+Redistributions of source code must retain the above copyright notice,.
+this list of conditions and the following disclaimer. 
+
+Redistributions in binary form must reproduce the above copyright.
+notice, this list of conditions and the following disclaimer in the.
+documentation and/or other materials provided with the distribution. 
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR 
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, 
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY 
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+-->
+
+<html>
+  <title>
+  KATT Historical Weather
+  </title>
+
+  <!-- CDN hosted versions of the JS libraries -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/2.10.0/d3.v2.min.js"></script>
+
+  <!-- App specific CSS and JS -->
+  <link rel="stylesheet" type="text/css" href="/local_static/station.css"/>
+  <script type="text/javascript" src="/local_static/station.js?refresh=true"></script>
+
+</head>
+
+<body>
+
+<center>
+<h2>KATT (Campy Mabry, Austin, TX) Historical Weather</h2>
+<svg id="overview_plot" class="overview" width="80%" height="250px"></svg>
+
+<table>
+  <tr>
+    <td><svg id="mo_1" class="month" width="200" height="120"></svg><br/><center>January</center></td>
+    <td><svg id="mo_2" class="month" width="200" height="120"></svg><br/><center>February</center></td>
+    <td><svg id="mo_3" class="month" width="200" height="120"></svg><br/><center>March</center></td>
+   </tr>
+  <tr>
+    <td><svg id="mo_4" class="month" width="200" height="120"></svg><br/><center>April</center></td>
+    <td><svg id="mo_5" class="month" width="200" height="120"></svg><br/><center>May</center></td>
+    <td><svg id="mo_6" class="month" width="200" height="120"></svg><br/><center>June</center></td>
+  </tr>
+  <tr>
+    <td><svg id="mo_7" class="month" width="200" height="120"></svg><br/><center>July</center></td>
+    <td><svg id="mo_8" class="month" width="200" height="120"></svg><br/><center>August</center></td>
+    <td><svg id="mo_9" class="month" width="200" height="120"></svg><br/><center>September</center></td>
+  </tr>
+  <tr>
+    <td><svg id="mo_10" class="month" width="200" height="120"></svg><br/><center>October</center></td>
+    <td><svg id="mo_11" class="month" width="200" height="120"></svg><br/><center>November</center></td>
+    <td><svg id="mo_12" class="month" width="200" height="120"></svg><br/><center>December</center></td>
+  </tr>
+<table>
+</center>
+
+</body>
+</html>
