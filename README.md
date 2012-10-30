@@ -48,6 +48,7 @@ The files included are:
 * station.js - Backbone models, D3 vis code, jQuery 
 * station.py - RESTish API and Web App
 * temperature.py - data model and Python API
+* screenshot.png - screenshot (this is what it should look like)
 
 
 Contact
